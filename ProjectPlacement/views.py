@@ -13,9 +13,9 @@ from projectPlacement import projectPlacement
 
 
 p = projectPlacement()
-p.getProjectScore()
 
 @api_view(['GET'])
 def getProjectPlacement(request):
     
-    return Response(p.getProjectScore())
+    a =  Response(p.getProjectScore())
+    return a
