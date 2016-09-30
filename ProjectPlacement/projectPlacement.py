@@ -6,13 +6,13 @@ import operator
 
 class projectPlacement:
 	def __init__(self): 
-# 		self.CPLdb=MySQLdb.connect(host="52.35.25.23" , port = 3306, user = "ITadmin",passwd = "ITadmin" ,db ="CPL")
+# 		self.CPLdb=MySQLdb.connect(host="52.35.25.23" , port = 3306, user = "ITadmin",passwd = "ITadmin" ,db ="CPL") 52.66.172.140
 		self.zeroLeadPenelty = 1500
 		self.openViewRatioWeight = 100
 		self.openViewFactor = 3
 
 	def getProjectScore(self):
-		self.CPLdb=MySQLdb.connect(host="52.35.25.23" , port = 3306, user = "ITadmin",passwd = "ITadmin" ,db ="CPL")
+		self.CPLdb=MySQLdb.connect(host="52.66.177.232" , port = 3306, user = "ITadmin",passwd = "ITadmin" ,db ="CPL")
 		cursor=self.CPLdb.cursor()
 		currDate = datetime.date.today()
 		prev3Month =  currDate - datetime.timedelta(days=90)
@@ -40,7 +40,7 @@ class projectPlacement:
 
 if __name__ == '__main__':
 	p = projectPlacement()
-	p.getProjectScore()
+	print p.getProjectScore()
 
 
 

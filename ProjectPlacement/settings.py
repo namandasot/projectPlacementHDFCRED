@@ -81,7 +81,7 @@ DATABASES = {
         'NAME': 'REDADMIN2',
         'USER': 'ITadmin',
         'PASSWORD': 'ITadmin',
-        'HOST': '52.35.25.23',   # Or an IP Address that your DB is hosted on
+        'HOST': '52.66.177.232',   # Or an IP Address that your DB is hosted on
         'PORT': '3306',
     },
     'default': {
@@ -89,7 +89,7 @@ DATABASES = {
         'NAME': 'CPL',
         'USER': 'ITadmin',
         'PASSWORD': 'ITadmin',
-        'HOST': '52.35.25.23',   # Or an IP Address that your DB is hosted on
+        'HOST': '52.66.177.232',   # Or an IP Address that your DB is hosted on
         'PORT': '3306',
     }
 }
